@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+    background: #E5E5E5;
+    
+}
+
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    max-width: 302px;
+    max-height: 428px;
+
+    font-family: 'Mulish', sans-serif;
+}
+
+.card img{
+    border-radius: 12px 12px 0px 0px;
+}
+
+.card h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #131E30;
+
+    padding: 8px 78px;
+}
+
+.card p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #131E30;
+
+    padding: 7px 45px 59px 45px;
+}
+
+.card div.select{
+    display: flex;
+    padding: 0px 25px 25px 25px;
+}
+
+.card button.btn{
+    all: unset;
+    box-sizing: border-box;
+    background: #459275;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: #EFF5FF;
+
+    min-width: 38.54px;
+    
+}
+
+.card span.counter{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+
+    color: #131E30;
+
+    padding-left: 77px;
+    padding-right: 77px;
+
+    max-width: 150px;
 }
